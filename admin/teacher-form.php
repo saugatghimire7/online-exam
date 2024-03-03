@@ -193,7 +193,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 // Query to retrieve teachers for the select box
-$groupQuery = "SELECT id, name FROM groups";
+$groupQuery = "SELECT id, name FROM `groups`";
 $groupResult = $conn->query($groupQuery);
 
 // Close the database connection
