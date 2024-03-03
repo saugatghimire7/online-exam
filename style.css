@@ -1,0 +1,62 @@
+.demo {
+  background-image: url("exam.avif");
+  text-align: center;
+  text-transform: uppercase;
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+}
+.demoo{
+  background-image: url("moon2.jpg");
+  text-align: center;
+  text-transform: uppercase;
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  color:orange;
+
+}
+.demoo h3{
+  color:orange;
+
+}
+.demoo h1{
+  color:#fff;
+}
+
+
+.row {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.contact {
+  background-color: #ccc;
+}
+.footer {
+  height: 400px;
+  margin-top: 50px;
+  color: white;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+/*teacher discription*/
+.teacherdis{
+
+  text-transform: capitalize;
+
+
+}
+
+.tecdes{
+ text-transform: uppercase;
+
+}
+/*subject discription*/
+
+
+
