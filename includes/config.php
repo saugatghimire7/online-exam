@@ -1,9 +1,9 @@
 <?php
 
 $servername = "localhost";
-$username = "online_exam_db_user";
-$password = "NewStrongerPassword!11111111111@22";
-$dbname = "online_exam_db";
+$username = "online_exam";
+$password = "123456789";
+$dbname = "online_exam";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
