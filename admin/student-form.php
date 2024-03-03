@@ -113,7 +113,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 // Query to retrieve groups for the select box
-$groupQuery = "SELECT id, name FROM groups";
+$groupQuery = "SELECT id, name FROM `groups`";
 $groupResult = $conn->query($groupQuery);
 
 if (isset($_GET["student_id"])) {
