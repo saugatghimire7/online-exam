@@ -9,9 +9,9 @@ if (!isAdminLoggedIn()) {
 }
 
 // Query to retrieve students
-$sql = "SELECT students.*, groups.name as group_name 
+$sql = "SELECT students.*, `groups`.name as group_name 
         FROM students 
-        LEFT JOIN groups ON students.group_id = groups.id";
+        LEFT JOIN `groups` ON students.group_id = `groups`.id";
 $result = $conn->query($sql);
 
 // Initialize an array to store students
